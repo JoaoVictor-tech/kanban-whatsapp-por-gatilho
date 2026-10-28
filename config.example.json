@@ -1,0 +1,14 @@
+{
+  "panelId": "ID-DO-PAINEL",
+  "steps": {
+    "NovoLead": "ID-DA-ETAPA-NOVO-LEAD",
+    "EmAtendimento": "ID-DA-ETAPA-EM-ATENDIMENTO",
+    "AguardandoCliente": "ID-DA-ETAPA-AGUARDANDO-CLIENTE",
+    "Finalizado": "ID-DA-ETAPA-FINALIZADO"
+  },
+  "tagToStep": {
+    "Proposta enviada": "AguardandoCliente",
+    "Venda fechada": "Finalizado",
+    "Sem interesse": null
+  }
+}
